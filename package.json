@@ -1,0 +1,31 @@
+{
+  "name": "get-haversine-distance",
+  "version": "1.0.0",
+  "description": "Get distance between two coordinates using haversine formula",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/get-haversine-distance",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "standard": "^11.0.1"
+  },
+  "keywords": [
+    "haversine",
+    "distance"
+  ],
+  "files": [
+    "index.js",
+    "yarn.lock"
+  ],
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
